@@ -1,0 +1,38 @@
+name = AHW Bootstrap
+description = A Starterkit that uses the Bootstrap Framework SASS source files and must be compiled (not for beginners).
+core = 7.x
+base theme = bootstrap
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+;; Disable BootstrapCDN so the compiled SASS source files can be used.
+settings[bootstrap_cdn] = ''
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = build/css/ahw-styles.min.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+;; The bootstrap.min.js file is added by the base theme.
+; scripts[] = 'node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js'
+
+;; The scripts.min.js file is added by template.php so this line is not needed.
+; scripts[] = build/js-custom/ahw-scripts.min.js

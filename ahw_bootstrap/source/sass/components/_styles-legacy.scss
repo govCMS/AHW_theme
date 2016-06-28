@@ -1,0 +1,1085 @@
+/*
+ * HTML5 ✰ Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ *
+ * Detailed information about this CSS: h5bp.com/css
+ *
+ * ==|== normalize ==========================================================
+ */
+
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+body.front {
+  h1.page-header {
+    display: none;
+  }
+}
+
+ul.tabs--primary {
+  width: 100%;
+  background-color: #FbF5E3;
+  margin: 10px 0;
+  li {
+    display: inline-block;
+    padding: 5px 10px;
+  }
+}
+
+.view-featured-event {
+  h3 {
+    margin-top: 0.5em;
+  }
+}
+
+.node {
+  .field {
+    font-size: 1.2em;
+  }
+}
+
+.workbench-info-block {
+  margin-bottom: 20px !important;
+}
+
+.front {
+  section#main {
+    > div.region-content {
+      width: 600px;
+      float: left;
+    }
+  }
+}
+
+.sidebar-first {
+  section#main {
+    > div.region-content {
+      width: 600px;
+      float: right;
+    }
+  }
+}
+
+.squiggleWrapper {
+  width: 100%;
+  height: 40px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; font-size: 12px; line-height: 1.231; min-width: 960px; }
+body, button, input, select, textarea { font-family: Arial, helvetica, sans-serif; color: #001d34; }
+
+::-moz-selection { background: #953900; color: #fff; text-shadow: none; }
+::selection { background: #953900; color: #fff; text-shadow: none; }
+
+a { color: #953900; text-decoration: none; }
+a:visited { color: #551a8b; }
+a:hover { color: #953900; text-decoration: underline; }
+a:focus { outline: thin dotted; }
+
+nav a { text-decoration: none; }
+
+a:hover, a:active { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+
+small { font-size: 85%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 0; }
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+
+label { cursor: pointer; }
+
+legend { border: 0; *margin-left: -7px; padding: 0; }
+
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+button, input { line-height: normal; *overflow: visible; }
+
+table button, table input { *overflow: auto; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+
+/*
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { backround-color: #f0dddd; }
+*/
+
+/*********************************************************************************
+                           			Custom CSS
+**********************************************************************************/
+
+/**********************
+	Tables
+***********************/
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+/**********************
+	Basic tags
+***********************/
+
+/*headers*/
+
+h1, h2, h3, h4, h5, h6 { color: #B05116; text-transform: uppercase; margin-bottom: 0; margin-top: 1em; }
+
+h1 { font-size: 2em; margin-bottom: 1em; }
+
+h2 { font-size: 1.5em; margin-bottom: 0.5em; }
+
+h3 { font-size: 1.3em; margin-bottom: 0.3em; text-transform: none; }
+
+h4 { font-size: 1.2em; color: #001D34; }
+
+h5 { font-size: 1.2em; color: #001D34; text-transform: none; }
+
+h6 { font-size: 1.2em; color: #001D34; text-transform: none; font-style: italic; }
+
+#content h1.squiggle,
+h1.squiggle,
+#content h2.squiggle,
+h2.squiggle,
+h3.squiggle {
+	background: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png) no-repeat right -300px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 30px;
+	width: auto;
+	min-height: 36px;
+	padding: 0 30px 0 0;
+	float: left;
+}
+
+h1.squiggle span,
+h2.squiggle span,
+h3.squiggle span {
+	background: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png) no-repeat left -300px;
+	line-height: 36px;
+	padding-left: 30px;
+	text-align: center;
+	float: left;
+}
+
+
+p { font-size: 1em; margin-top: 0; margin-bottom: 20px; }
+
+
+.off-screen {position: absolute; left: -9999px;}
+
+/**********************
+	Header
+***********************/
+
+header {background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) center bottom no-repeat; padding-bottom: 98px; width: 100%; position: relative; float: left; z-index: 100; }
+
+header .headerInner {float: left; width: 100%; background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) center 140px no-repeat #ADC9CE; height: 157px;}
+
+header .headerContent { padding: 10px 20px; width: 920px;}
+
+header .headerLeft { float: left; }
+header .headerRight { float: right; }
+
+
+/****************************
+	Feature area
+**************************/
+
+#feature {background-color: #B05116; width: 100%; float: left; margin-top: -98px; margin-bottom: 60px; }
+
+#feature .featureImages { position: relative; z-index: 0; min-height: 270px; }
+
+#feature .featureImages ul {margin: 0;}
+#feature .featureImages ul li:first-child {display: block;}
+#feature .featureImages ul li {position: absolute; top: 0; left: 0; display: none; list-style-type: none;}
+#feature .featureImages .caption {position: absolute; bottom: 0; left: 0; margin: 0; color: #FFFFFF; text-shadow: 0 0 2px #000000; font-size: 1.2em; margin: 0; font-weight: bold; padding: 5px 12px; background: url(/sites/ahw/themes/ahw_bootstrap/images/transparent-black.png) top left repeat;}
+
+#feature .featureImages .caption span {opacity: 1;}
+
+#feature .featureText a:hover p,
+#feature .featureText a:hover h2 { color: #678338; }
+
+#feature .featureText {background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) -1000px -300px no-repeat; padding: 40px 50px; width: 350px; text-align: center;float: right; position: relative; text-decoration: none; margin: 40px 10px 0 0; z-index: 120;}
+
+.featureText h2 {font-family: Times New Roman,serif; font-size: 3em; font-weight: normal; line-height: 45px; margin: 0 0 10px; color: #953900;}
+
+.featureText p { font-style: italic; font-size: 2em; margin: 0; color: #953900; }
+
+#feature-nav {height: 20px; position: absolute; bottom: 30px; left: 10px; z-index: 50; display: none;}
+#feature-nav a {width: 16px; padding-left: 1px; height: 15px; padding-top: 2px; float: left; background-image: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png); background-position: -150px -1400px; margin: 0 8px 0 0; color: #000; font-size: 9px; font-family: Monaco, sans-serif; text-align: center; min-height: 0;}
+#feature-nav a.last {margin-right: 0;}
+#feature-nav a:hover, #feature-nav a.on {background-position: -200px -1400px; color: #fff; text-decoration: none; padding-left: 2px; width: 15px;}
+
+/****************************
+	Main Nav
+**************************/
+
+#mainNav ul { margin-top: 10px; text-transform: uppercase; float: left; }
+
+#mainNav li { float: left; margin-left: 10px; min-height: 36px; padding-right: 30px;}
+
+#mainNav a {float: left; color: #FAF3DF; text-decoration: none; font-size: 1.5em; text-align: center;  padding-left: 30px; line-height: 36px;}
+
+#mainNav li.current_page_item, #mainNav li.current_page_item:hover {background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: right 0;}
+#mainNav li.current_page_item a, #mainNav li.current_page_item:hover a {background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: left 0; color: #B05116;}
+
+#mainNav li:hover {background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: right -200px;}
+#mainNav li:hover a {background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: left -200px;}
+
+
+#mainNav li:first-child { margin: 0; }
+
+
+/*
+#mainNav a.short { width: 118px; }
+#mainNav a.short:hover { background-position: -22px -482px; }
+
+#mainNav a.long { width: 230px; }
+#mainNav a.long:hover { background-position: -22px -482px; }
+
+#mainNav a.short.active,
+#mainNav a.short.active:hover { background-position: -22px -540px;  }
+
+#mainNav a.long.active,
+#mainNav a.long.active:hover { background-position: -87px -608px; }
+*/
+
+/****************************
+	Calendar
+**************************/
+
+#calendar { background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) no-repeat center -136px; padding: 35px 0 25px; position: relative; width: 100%; margin-bottom: -25px; float: left; height: 35px;}
+
+#calendar .container { clear: left; height: 35px; position: relative;}
+
+#calendar .leftButton,
+#calendar .rightButton {background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) -18px -608px no-repeat;	height: 33px; width: 35px; text-indent: -9999px; position: absolute; top: 0; left: 0; display: none;}
+
+#calendar .rightButton { background-position: -87px -608px; left: 915px;}
+
+#calendar .window {float: left;	margin: 0 45px;	width: 870px; min-height: 35px; overflow-x: hidden; position: relative;}
+
+#calendar .window ul { width: 1750px; position: absolute; left: 0; top: 2px; font-size: 0.9em; }
+
+#calendar .window li {width: 32px; text-align: center; padding-bottom: 5px; text-transform: uppercase; font-family: Myriad Pro, Arial, helvetica, sans-serif; color: #10437C; float: left; position: relative;}
+
+#calendar .window li.month { background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) -3px -649px no-repeat; font-weight: bold; padding-bottom: 6px;}
+
+#calendar .window li.more {width: 110px;}
+#calendar .window li.more a {color: #00467C; font-weight: bold;}
+
+#calendar .date { padding-top: 15px; display: block; color: #B04E17; }
+
+#calendar .date.withEvent { color: #00467c;  font-weight: bold;}
+
+#calendar .event:hover { text-decoration: underline; }
+
+#calendar .day { display: none; }
+
+#calendar .today { background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) -60px -658px no-repeat; }
+#calendar .today .day { display: block; font-weight: bold; color: #00467C; padding-top: 2px }
+#calendar .today .date { padding-top: 0; color: #00467c;}
+
+#calendar .events-preview {background: #b04e17; left: -124px; position: absolute; top:42px; z-index: 400; float: left; display: none;}
+#calendar .events-preview ul {background-image: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png); background-position: 130px -1590px; background-repeat: no-repeat; float: left; position: relative; top: 0; width: auto; padding-top: 12px; margin-top: -12px;}
+#calendar .events-preview li:first-child {border: none;}
+#calendar .events-preview li {color: #fff; padding: 10px 0; margin: 0 10px; text-align: left; text-transform: none; width: 260px; float: left; clear: left; background: #b04e17; font-size: 1.3em; border-top: solid 1px #fff;}
+#calendar .events-preview li a {color: #fff; text-decoration: none;}
+#calendar .events-preview li a:hover {text-decoration: underline;}
+#calendar .events-preview img {float: left; margin: 0 10px 0 0;}
+#calendar .events-preview p { font-size: 1em; float: left; width: 180px; margin-bottom: 0; cursor: pointer; }
+#calendar .events-preview p:hover { text-decoration: underline; }
+#calendar .events-preview li a.more {float: right;}
+
+/****************************
+	Main content area
+**************************/
+
+#main { clear: both;}
+
+#content {float: left; /*margin-right: 40px;*/ padding-left: 20px; width: 580px;}
+#content.sideFilter { margin-right: 0; margin-left: 20px; padding: 0; width: 610px; }
+#content.wide {width: 960px; min-height: 250px;}
+
+#content .text { clear: both; }
+
+
+.home h1 { float: left; text-align: center; font-size: 1.7em; }
+
+#content.wide section#when h2.squiggle { background-position: left -500px; }
+
+.squiggleLink {
+	background: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png) no-repeat right -100px;
+	color: #FFFFFF;
+	margin-top: 0;
+	margin-bottom: 30px;
+	width: auto;
+	min-height: 36px;
+	padding: 0 30px 0 0;
+	float: right;
+	font-size: 1.3em;
+}
+
+.squiggleLink a,
+.squiggleLink span {
+	background: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png) no-repeat left -100px;
+	line-height: 36px;
+	padding-left: 30px;
+	text-align: center;
+	float: left;
+	color: #FFFFFF;
+}
+
+
+#main .heritage a:hover,
+.home .readMore:hover { text-decoration: underline; }
+
+.home .readMore {  margin-top: 10px; text-transform: none; background-position: right -300px; }
+
+.home .readMore a { background-position: left -300px; }
+
+#content li { font-size: 1.2em; }
+
+/****************************
+	date filter
+**************************/
+
+#dateFilter { padding-bottom: 30px; margin-bottom: 20px; background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) no-repeat -67px -1253px; }
+
+#dateFilter h2 { color: #B05116; margin: 10px 0; }
+
+#dateFilter label { text-transform: uppercase; font-size: 1.2em; color: #B05116; font-weight: bold; margin-right: 8px; float: left; line-height: 22px;}
+
+#dateFilter .ui-datepicker-trigger { margin-left: 3px; margin-right: 7px; float: left; }
+
+#dateFilter input[type="text"] { height: 20px; width: 115px; border: solid 1px #c7d8e3; float: left; }
+
+#dateFilter input[type="submit"] { margin: 0 !important; position: relative; top: -6px; }
+
+/****************************
+	Listings
+**************************/
+
+#listing { margin: 0; padding: 0; }
+
+#listing li { padding-top: 10px; list-style: none; clear: both; background: url(/sites/ahw/themes/ahw_bootstrap/images/list-bottom-border.png) no-repeat -383px bottom; float: left; padding-bottom: 10px; width: 608px; font-size: 1em; }
+
+#listing li li { margin: 0; padding: 0; }
+
+#listing .imageHolder { float: left; margin-right: 10px; display: block; width: 170px; overflow: hidden; padding-bottom: 10px; }
+
+#listing .imageHolder p,
+#eventHeading .imageHolder p {
+    color: #595959;
+    font-style: italic;
+    margin-bottom: 0;
+    margin-top: 5px;
+	font-size: 1em;
+	float: left;
+}
+
+
+#listing .info { width: 378px; float: left; position: relative; }
+
+#listing .info p { margin-bottom: 0.5em; }
+
+#listing .info .price { padding-bottom: 20px; }
+#listing .info .price .label { text-transform: uppercase; font-weight: bold; color: #B05116; float: left; margin-right: 5px; }
+#listing .info .price .cost { float: left; width: 325px; }
+
+#listing h3 { margin-top: 0; background-image: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png); background-repeat: no-repeat; background-position: 9999px 9999px; padding-left: 28px; font-size: 1.3em; margin-bottom: 5px; position: relative;}
+
+#listing h3 a { color: #001d34; }
+
+#listing .historical h3 { background-position: -1994px -900px; }
+#listing .natural h3 { background-position: -1994px -1000px; }
+#listing .indigenous h3 { background-position: -1994px -1100px; }
+
+#listing .historical.natural h3 { background-position: -1986px -1200px; }
+#listing .natural.indigenous h3 { background-position: -1986px -1300px; }
+#listing .historical.indigenous h3 { background-position: -1986px -1400px; }
+
+#listing .historical.natural.indigenous h3 { background-position: -1978px -1500px; }
+
+.keyTrigger {
+    cursor: pointer;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+	display: block;
+}
+
+.keyTrigger.size1 { width: 7px; }
+.keyTrigger.size2 { width: 15px; }
+.keyTrigger.size3 { width: 25px; }
+
+#listing .key-popup,
+.key-popup {
+    left: -45px;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: -115px;
+	background-color: #FAF3DF;
+	border: 1px solid #BC4327;
+	display: none;
+	float: left;
+}
+
+#listing .key-popup li,
+#eventHeading .key-popup li {
+    background-image: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png");
+    font-size: 1.3em;
+    padding: 3px 10px;
+	margin: 5px 0;
+    width: auto;
+	float: none;
+	list-style: none outside none;
+	text-transform: none;
+	font-weight: normal;
+}
+
+#listing .key-popup li { padding: 0px 10px; }
+
+.key-popup .historical { background-position: -1994px -900px !important; }
+.key-popup .natural { background-position: -1994px -1000px !important; }
+.key-popup .indigenous { background-position: -1994px -1100px !important; }
+
+#listing .date {
+    font-size: 1em;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
+
+/**** Features ****/
+#listing .features { width: 50px; float: right; margin: 0; padding: 0; }
+
+#listing .features li { text-indent: -9999px; overflow: hidden; background-image: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png); background-repeat: no-repeat; background-position: 9999px 9999px; height: 45px; width: 50px; margin-bottom: 10px; }
+
+#listing .features .wheelchair { background-position: -1947px -1600px; }
+#listing .features .free { background-position: -1947px -1650px; }
+#listing .features .booking { background-position: -1947px -1700px; }
+
+#listing .price p { margin: 0; text-indent: 0; text-align: center; overflow: visible; text-transform: uppercase; font-weight: bold;}
+
+#listing .price .text { color: #B05116; }
+
+/****************************
+	Pagination
+**************************/
+
+.pagination { text-transform: uppercase; color: #BC4327; font-weight: bold; clear: both; text-align: center; }
+
+.pagination ul { list-style: none; height: 25px; padding: 20px 0 0; display: inline-block; margin: 0; }
+
+.pagination a { color: #BC4327; }
+
+.pagination span { display: none; }
+
+.pagination li { float: left; color: #BC4327; display: block; padding: 5px 8px; }
+
+.pagination li.current { background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) no-repeat left -1611px; }
+
+.pagination li.current a { text-decoration: none; cursor: default; }
+
+.pagination li.prev,
+.pagination li.next { letter-spacing: 1px; }
+
+.pagination li.end,
+.pagination li.end a { color: #8a9393; }
+
+.pagination .arrows { display: inline; font-size: 1.3em; margin-top: 1px; line-height: 0.3em; }
+
+/* IE7 fixes */
+
+.ie7 .pagination { position: relative; clear: both; height: 50px }
+
+.ie7 .pagination ul { position: absolute; left: 50%; margin-left: -100px; }
+
+/****************************
+	content asides
+**************************/
+
+#getInvolved {
+    background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat scroll -360px -300px transparent;
+    clear: both;
+    margin-top: 100px;
+    padding: 15px 35px 70px;
+    width: 524px;
+	position: relative;
+	left: -15px;
+}
+
+#getInvolved h2 { color: #BC4327; margin-bottom: 20px; }
+
+#getInvolved p { margin-bottom: 25px; }
+
+#getInvolved .register { background-position: right -400px; }
+
+#getInvolved .register a { background-position: left -400px;}
+
+/****************************
+	Side bar
+**************************/
+
+#sidebar { float: left; width: 300px; margin-left: 20px; background: url(/sites/ahw/themes/ahw_bootstrap/images/filter-sidebar.png) no-repeat left bottom; padding-bottom: 30px; }
+
+#sidebar .innerFilter { background: url(/sites/ahw/themes/ahw_bootstrap/images/filter-sidebar-top.png) no-repeat left top; padding: 30px 30px 5px; }
+
+#sidebar fieldset {margin-top: 10px;}
+
+#sidebar h2 { color: #B05116; font-size: 1.5em; margin: 0 0 10px 0; text-transform: uppercase;}
+
+#sidebar legend { color: #B05116; font-weight: bold; font-size: 1.1em; text-transform: uppercase; line-height: 2em; margin: 0 0 5px 0; cursor: pointer;}
+
+#sidebar legend span {margin-right: 5px;}
+
+#sidebar ul { list-style: none; padding-left: 10px; clear: both; margin-top: 0; }
+
+#sidebar li { font-weight: bold; clear: both; float: left; margin-bottom: 5px; width: 100%; }
+
+#sidebar ul ul { padding-top: 10px; padding-left: 20px; }
+
+#sidebar li li label { width: 180px; }
+
+#sidebar li input { margin-right: 5px; float: left; margin-top: 0; }
+
+#sidebar label { display: block; float: left; width: 200px; }
+
+#sidebar .keyword { background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat -20px -1025px; padding-bottom: 20px; }
+
+#sidebar .keyword input[type=text] { height: 24px; margin-top: 4px; width: 130px; padding-left: 5px; border: solid 1px #c7d8e3; float: left;}
+
+#sidebar #historical,
+#sidebar #natural,
+#sidebar #indigenous { margin-top: 3px; }
+
+#sidebar .historical,
+#sidebar .natural,
+#sidebar .indigenous { padding-top: 3px; padding-bottom: 5px; padding-left: 10px; background-image: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png); background-repeat: no-repeat; background-position: -1993px -900px; width: 190px; }
+
+#sidebar .historical { background-position: -1993px -900px; }
+#sidebar .natural { background-position: -1993px -1000px }
+#sidebar .indigenous { background-position: -1993px -1100px; /*padding-bottom: 20px;*/ }
+
+#sidebar h2.squiggle { background-position: right -400px; color: #FFFFFF; font-weight: normal; margin-bottom: 20px; }
+#sidebar h2.squiggle span { background-position: left -400px }
+
+#sidebar h3 { font-size: 1.4em; }
+
+#sidebar .venue { font-weight: bold; margin-bottom: 0; }
+#sidebar .region { margin-bottom: 0.5em; }
+
+#sidebar .sideContent { clear: both; padding: 20px 0 30px; }
+
+#sidebar .FAQs p { margin-bottom: 35px; }
+
+#sidebar .email.squiggleLink { background-position: right -500px; }
+#sidebar .email.squiggleLink a { background-position: left -500px; }
+
+/****************************
+	FAQ
+**************************/
+
+#FAQs { margin-left: 40px; float: left; }
+
+#FAQs h2 { cursor: pointer; font-size: 1.5em; }
+
+#FAQs p { margin-bottom: 0.7em; }
+
+.sub { width: 500px; }
+
+
+/****************************
+	Event Details
+**************************/
+
+#eventHeading img { float: left; }
+
+#eventHeading .imageHolder {
+    float: left;
+    margin-right: 10px;
+    width: 168px;
+}
+
+#eventHeading h1 { background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) no-repeat -1993px -995px; margin: 0; font-size: 1.6em; padding-top: 3px; padding-left: 10px; width: 390px; position: relative; }
+
+#eventHeading h1.indigenous { background-position: -1993px -1095px }
+#eventHeading h1.historical { background-position: -1993px -896px }
+#eventHeading h1.natural { background-position: -1993px -995px; }
+
+#eventHeading h1.historical.natural,
+#eventHeading h1.historical.indigenous,
+#eventHeading h1.natural.indigenous { padding-left: 17px; width: 385px; }
+
+#eventHeading h1.historical.natural { background-position: -1986px -1196px; }
+#eventHeading h1.natural.indigenous { background-position: -1986px -1296px; }
+#eventHeading h1.historical.indigenous { background-position: -1986px -1396px; }
+
+#eventHeading h1.historical.natural.indigenous { background-position: -1978px -1495px; width: 375px; padding-left: 25px; }
+
+#eventHeading .info { float: left; position: relative; }
+
+#eventHeading .date { font-weight: bold; text-transform: uppercase; font-size: 1.2em; margin: 0 0 3px 0; }
+
+#eventHeading .label { color: #B05116; float: left; min-width: 65px; }
+
+#eventHeading li { font-weight: bold; text-transform: uppercase; width: 100px; padding: 7px 0 10px 50px; float: left; background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) no-repeat -1950px -1600px; line-height: 0.9em; }
+
+#eventHeading .booking { background-position: -1950px -1700px; }
+
+#eventHeading .features { margin: 12px 0 0 0; padding: 0; font-weight: bold; list-style: none; }
+
+#eventHeading .keyTrigger { margin-top: 3px; }
+
+.eventOver {
+    background-position: right -200px;
+    float: left;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.eventOver span { background-position: left -200px; width: 410px; }
+
+#listing .eventOver { margin-top: 0; margin-bottom: 10px; font-size: 1.3em; }
+#listing .eventOver span { width: 280px; }
+
+
+#quickDetails { clear: both; padding-top: 20px; float: left; }
+
+#quickDetails h2.squiggle { background-position: right -500px; margin-bottom: 1em; font-size: 1.5em; font-weight: normal; }
+
+#quickDetails h2.squiggle span { background-position: left -500px; }
+
+#quickDetails dl { clear: both; font-size: 1em; font-weight: bold; float: left; margin: 0; width: 250px; }
+
+#quickDetails dl a { color: #001d34; }
+
+#quickDetails dt { text-transform: uppercase; color: #B05116; float: left; clear: both; width: 85px; margin-bottom: 0.5em; }
+
+#quickDetails dd { float: left; width: 150px; padding-right: 10px; margin-left: 0; margin-bottom: 0.5em; }
+
+#quickDetails .details,
+#quickDetails .contact { float: left; width: 250px;}
+
+#quickDetails .contact dt { width: 65px; }
+#quickDetails .contact dd { width: 175px; }
+
+#eventDescription { float: left; clear: both; width: 100%; margin-top: 20px; }
+
+#disclaimer { clear: both; font-size: 0.9em; color: #707070; font-style: italic; }
+
+#map_canvas { clear: both; height: 270px !important; width: 240px !important; }
+#map_canvas.register { width: 310px !important; height: 300px !important; }
+
+.eventsBack { background-position: right -200px; }
+.eventsBack a { background-position: left -200px; }
+
+/****************************
+	Forms
+**************************/
+
+
+input[type=text], input[type=url], input[type=tel], input[type=email], textarea {border: solid 1px #c6d8e6; border-radius: 2px; -moz-border-radius: 2px; padding: 3px 5px;}
+
+input[type=checkbox],
+input[type=radio] { width: auto; margin-right: 10px; float: left; margin-top: 5px;}
+
+#content fieldset { margin: 0 auto 30px auto; width: 700px; clear: both;}
+
+.ie7 #content fieldset { margin: 0 130px 30px; }
+
+#content legend { background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: right -500px; padding: 0 25px 10px 0; float: left; }
+
+#content legend span { background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: left -500px; padding-left: 20px; line-height: 36px; float: left;  color: #fff; font-size: 1.25em; font-weight: bold; text-transform: uppercase; }
+
+div.row { clear: both; padding: 10px 0; }
+
+#content label { width: 200px; float: left; font-size: 1.2em; text-transform: uppercase; color: #B05116; font-weight: bold; text-align: right; margin-right: 30px; margin-top: 4px; padding-right: 10px; }
+
+#content label.required { background: url(/sites/ahw/themes/ahw_bootstrap/images/required-astrix.png) top right no-repeat; }
+
+#content input[type=text], #content input[type=url], #content input[type=tel], #content input[type=email], #content textarea { width: 300px; padding: 3px 5px; }
+
+#content select { min-width: 312px; }
+
+#content textarea { height: 100px; }
+
+#content .longLabel { margin-top: 10px; }
+
+#content .grouped { float: left; width: 460px; }
+
+#content .grouped p { width: 310px; }
+
+#content fieldset p { margin-bottom: 10px; font-size: 1.1em; clear: both;}
+#content fieldset p.error { margin: 0 0 0 240px; padding-top: 5px; color: #BC4327; font-style: italic; width: 310px; }
+#content fieldset p.error.left { margin-left: 0; width: auto; }
+
+input#noPhoto { margin-bottom: 15px; }
+
+#content .checkboxes .row { padding: 0; }
+
+#content .checkboxes label, #content label.checkbox { width: auto; float: left; color: #001d34; text-transform: none; font-weight: normal; text-align: left; }
+
+fieldset a { display: block; color: #953900; }
+
+#content input#entryFee { /*width: 50px; */}
+
+.endDate { margin-top: 10px; }
+.endDate img { margin-left: 12px; }
+a.addDate { display: none !important; }
+
+/*** submit buttons ***/
+input[type="submit"] {
+    background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat -20px -1152px;
+    border: medium none;
+    color: #F5E9D7;
+    float: right;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 9px 0;
+    text-transform: uppercase;
+    width: 117px;
+}
+
+input[type="submit"]:hover { background-position: -147px -1152px }
+
+input[type="reset"] {
+    background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat 0px -1192px;
+    border: medium none;
+    color: #F5E9D7;
+    float: right;
+    height: 39px;
+    margin-right: 20px;
+	/*text-transform: uppercase;*/
+	width: 100px
+}
+
+input[type="reset"]:hover { background-position: -150px -1192px }
+
+a.clear {
+    background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat 0px -1192px;
+    border: medium none;
+    color: #F5E9D7;
+    float: right;
+    height: 20px;
+    margin-right: 20px;
+	text-transform: capitalize;
+	width: 100px;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 12px;
+	text-decoration: none;
+}
+
+a.clear:hover { background-position: -150px -1192px }
+
+
+#sidebar .checkboxes input[type="submit"],
+#dateFilter input[type="submit"] { background-position: -20px -1152px; width: 120px; margin-top: 10px; margin-left: 130px; }
+
+#sidebar .keyword input[type="submit"]{ float: left; width: 87px; background-position: -19px -1104px; margin-left: 10px; }
+#sidebar .keyword input[type="submit"]:hover { background-position: -119px -1104px }
+
+#sidebar .checkboxes input[type="submit"]:hover,
+#dateFilter input[type="submit"]:hover { background-position: -147px -1152px }
+
+#sidebar .selectAll { padding-top: 10px; }
+
+#sidebar .selectAll label { text-transform: uppercase; color: #BC4327; font-weight: bold; }
+
+.recaptchatable #recaptcha_response_field { left: 0; }
+
+/*Thank you page*/
+#thankyouEventsPageLink,
+#thankyouNewEventLink { margin-top: 20px; }
+
+#thankyouEventsPageLink { float: left; background-position: right -200px; }
+#thankyouEventsPageLink a { background-position: left -200px; }
+
+#thankyouNewEventLink { margin-right: 220px; background-position: right -500px; }
+#thankyouNewEventLink a { background-position: left -500px; }
+
+/****************************
+	home Filter
+**************************/
+#sidebarHome { float: left; width: 330px; margin-left: 30px; }
+
+
+.homeFilter {background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat scroll right -300px; font-size: 1.2em; padding: 35px; margin-bottom: 20px;}
+
+.homeFilter h2 {color: #FAF3DF; padding-left: 60px; margin: 5px 0 10px 0; text-transform: uppercase; background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat left -298px;	min-height: 55px; font-size: 1.5em; width:70%;}
+//
+// .homeFilter fieldset { padding: 0 13px; width: 230px; background-color: #B04E17; }
+//
+.homeFilter label {color: #FAF3DF; margin: 0 0 5px 0; text-transform: uppercase; display: block; font-weight: bold; text-align: left; }
+
+.homeFilter input { width: auto; }
+.homeFilter .container-inline-date .form-item input {
+  width: 230px;
+}
+// .homeFilter input.datepicker { width: 178px; }
+
+.ui-datepicker-trigger { margin-left: 10px; cursor: pointer; margin-top: -1px;}
+
+.homeFilter select { width: 230px; }
+//
+.homeFilter button[type=submit] {background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat scroll left -800px transparent; border: medium none; font-size: 1.1em; font-weight: bold; padding: 9px 32px; text-transform: uppercase; float: right; margin: 20px 0 0 0; clear: both; color: #B05116;}
+
+.homeFilter button[type=submit]:hover { background-position: -135px -800px }
+
+.homeFilter {
+  .views-widget-filter-combine,
+  .views-widget-filter-field_end_date_value,
+  .views-widget-filter-field_heritage_tid,
+  .views-widget-filter-field_entry_free_value,
+  .views-widget-filter-field_wheelchair_value {
+    //this hides several fields for this form on the front page
+    display: none;
+  }
+  .help-block {
+    display: none;
+  }
+  .views-submit-button {
+    width: 100%;
+  }
+}
+
+
+.fileUploaded {margin-left: 240px; color: green;}
+
+/****************************
+	What's On
+**************************/
+
+// #whatsOn { margin-top: 20px; }
+
+#whatsOn h3 {
+    font-size: 1.8em;
+    font-weight: normal;
+	margin-bottom: 10px;
+	background-position: right -500px;
+}
+
+#whatsOn h3.squiggle {
+  display: none;
+}
+
+#whatsOn h3 span { background-position: left -500px; }
+
+#whatsOn ul { margin: 0; padding: 0; clear: both; }
+
+#whatsOn li { list-style: none; background: url(/sites/ahw/themes/ahw_bootstrap/images/list-bottom-border.png) no-repeat left top; padding: 20px 20px 0; margin-bottom: 15px; }
+
+#whatsOn li:first-child { background: none; padding: 0 20px; }
+
+#whatsOn h4 {
+    font-size: 1.4em;
+    margin: 0;
+
+	text-transform: none;
+}
+
+#whatsOn h4 a { color: #001d34; }
+
+#whatsOn .date { font-size: 1em; }
+
+#whatsOn p { margin-bottom: 10px; }
+
+#whatsOn .viewMore {
+	margin-top: 5px;
+	background-position: right -500px;
+}
+
+#whatsOn .viewMore a { background-position: left -500px; }
+
+#block-views-ahw-home-page-events-block {
+  h2 {
+    display: inline-block;
+    font-size: 1.8em;
+    font-weight: 400;
+    min-height: 36px;
+    margin: 0;
+    padding-left: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    background: url("/sites/ahw/themes/ahw_bootstrap/images/scribbles.png") left -500px no-repeat;
+    span {
+      display: inline-block;
+      background: url("/sites/ahw/themes/ahw_bootstrap/images/scribbles.png") right -500px no-repeat;
+      padding: 5px 30px 5px 0;
+      margin-right: -30px;
+    }
+  }
+  h3 {
+    &.field-content {
+      font-weight: bold;
+      font-size: 1.4em;
+      color:  #001D34;
+      margin-bottom: 5px;
+      a {
+        color: inherit;
+      }
+    }
+  }
+  .views-row {
+    background: url("/sites/ahw/themes/ahw_bootstrap/images/list-bottom-border.png") no-repeat left top;
+    padding: 20px 20px 0;
+    margin-bottom: 15px;
+    p {
+      font-size: 1.2em;
+    }
+    .field-content.date {
+      font-size: 1em;
+    }
+    &-first {
+      background: none;
+      padding: 0 20px;
+    }
+  }
+}
+
+/****************************
+	Footer
+**************************/
+
+footer { clear: both; position: relative; top: 12px; background: url(../images/site/footer-bg.png) repeat-x top #E6EFF0;}
+
+footer .nav {background: url("/sites/ahw/themes/ahw_bootstrap/images/footer.png") no-repeat center -80px; clear: both; padding-top: 95px; padding-bottom: 50px; margin: 0;}
+
+footer ul {padding: 0; text-align: center; }
+
+footer li { display: inline-block; list-style: none; border-right: 1px solid #000000; padding: 0 18px 0 15px; border-collapse: collapse; }
+
+.ie7 footer li { display: inline; }
+
+footer li:first-child { border-left: 1px solid #000000 }
+
+footer a:link,
+footer a:hover,
+footer a:visited { color: #001d34; }
+
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+
+.container { margin: 0 auto; width: 960px; }
+
+
+/* For image replacement */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+
+/* ==|== media queries ======================================================
+   PLACEHOLDER Media Queries for Responsive Design.
+   These override the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+
+}
+
+
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}

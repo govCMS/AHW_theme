@@ -1,0 +1,43 @@
+{
+  "name": "ahw_bootstrap",
+  "version": "1.0.0",
+  "description": "A Bootstrap sub theme for Drupal 7",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "csscomb": "^3.1.8"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "css-mqpacker": "^5.0.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-csscomb": "^3.0.7",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-newer": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "~2.0.1",
+    "gulp-sass-glob": "0.0.2",
+    "gulp-sass-lint": "^1.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.2",
+    "node-sass-globbing": "0.0.23",
+    "stream-browserify": "^2.0.1"
+  },
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
+  "author": "Rukshan Rodrigo",
+  "license": "MIT"
+}
