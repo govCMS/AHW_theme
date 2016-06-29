@@ -191,7 +191,7 @@ h1.squiggle,
 #content h2.squiggle,
 h2.squiggle,
 h3.squiggle {
-	background: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png) no-repeat right -300px;
+	background: url(../../images/scribbles.png) no-repeat right -300px;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	font-weight: bold;
@@ -206,7 +206,7 @@ h3.squiggle {
 h1.squiggle span,
 h2.squiggle span,
 h3.squiggle span {
-	background: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png) no-repeat left -300px;
+	background: url(../../images/scribbles.png) no-repeat left -300px;
 	line-height: 36px;
 	padding-left: 30px;
 	text-align: center;
@@ -223,9 +223,9 @@ p { font-size: 1em; margin-top: 0; margin-bottom: 20px; }
 	Header
 ***********************/
 
-header {background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) center bottom no-repeat; padding-bottom: 98px; width: 100%; position: relative; float: left; z-index: 100; }
+header {background: url(../../images/sprites.png) center bottom no-repeat; padding-bottom: 98px; width: 100%; position: relative; float: left; z-index: 100; }
 
-header .headerInner {float: left; width: 100%; background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) center 140px no-repeat #ADC9CE; height: 157px;}
+header .headerInner {float: left; width: 100%; background: url(../../images/sprites.png) center 140px no-repeat #ADC9CE; height: 157px;}
 
 header .headerContent { padding: 10px 20px; width: 920px;}
 
@@ -244,21 +244,21 @@ header .headerRight { float: right; }
 #feature .featureImages ul {margin: 0;}
 #feature .featureImages ul li:first-child {display: block;}
 #feature .featureImages ul li {position: absolute; top: 0; left: 0; display: none; list-style-type: none;}
-#feature .featureImages .caption {position: absolute; bottom: 0; left: 0; margin: 0; color: #FFFFFF; text-shadow: 0 0 2px #000000; font-size: 1.2em; margin: 0; font-weight: bold; padding: 5px 12px; background: url(/sites/ahw/themes/ahw_bootstrap/images/transparent-black.png) top left repeat;}
+#feature .featureImages .caption {position: absolute; bottom: 0; left: 0; margin: 0; color: #FFFFFF; text-shadow: 0 0 2px #000000; font-size: 1.2em; margin: 0; font-weight: bold; padding: 5px 12px; background: url(../../images/transparent-black.png) top left repeat;}
 
 #feature .featureImages .caption span {opacity: 1;}
 
 #feature .featureText a:hover p,
 #feature .featureText a:hover h2 { color: #678338; }
 
-#feature .featureText {background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) -1000px -300px no-repeat; padding: 40px 50px; width: 350px; text-align: center;float: right; position: relative; text-decoration: none; margin: 40px 10px 0 0; z-index: 120;}
+#feature .featureText {background: url(../../images/sprites.png) -1000px -300px no-repeat; padding: 40px 50px; width: 350px; text-align: center;float: right; position: relative; text-decoration: none; margin: 40px 10px 0 0; z-index: 120;}
 
 .featureText h2 {font-family: Times New Roman,serif; font-size: 3em; font-weight: normal; line-height: 45px; margin: 0 0 10px; color: #953900;}
 
 .featureText p { font-style: italic; font-size: 2em; margin: 0; color: #953900; }
 
 #feature-nav {height: 20px; position: absolute; bottom: 30px; left: 10px; z-index: 50; display: none;}
-#feature-nav a {width: 16px; padding-left: 1px; height: 15px; padding-top: 2px; float: left; background-image: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png); background-position: -150px -1400px; margin: 0 8px 0 0; color: #000; font-size: 9px; font-family: Monaco, sans-serif; text-align: center; min-height: 0;}
+#feature-nav a {width: 16px; padding-left: 1px; height: 15px; padding-top: 2px; float: left; background-image: url(../../images/sprites.png); background-position: -150px -1400px; margin: 0 8px 0 0; color: #000; font-size: 9px; font-family: Monaco, sans-serif; text-align: center; min-height: 0;}
 #feature-nav a.last {margin-right: 0;}
 #feature-nav a:hover, #feature-nav a.on {background-position: -200px -1400px; color: #fff; text-decoration: none; padding-left: 2px; width: 15px;}
 
@@ -272,11 +272,11 @@ header .headerRight { float: right; }
 
 #mainNav a {float: left; color: #FAF3DF; text-decoration: none; font-size: 1.5em; text-align: center;  padding-left: 30px; line-height: 36px;}
 
-#mainNav li.current_page_item, #mainNav li.current_page_item:hover {background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: right 0;}
-#mainNav li.current_page_item a, #mainNav li.current_page_item:hover a {background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: left 0; color: #B05116;}
+#mainNav li.current_page_item, #mainNav li.current_page_item:hover {background-image: url(../../images/scribbles.png); background-position: right 0;}
+#mainNav li.current_page_item a, #mainNav li.current_page_item:hover a {background-image: url(../../images/scribbles.png); background-position: left 0; color: #B05116;}
 
-#mainNav li:hover {background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: right -200px;}
-#mainNav li:hover a {background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: left -200px;}
+#mainNav li:hover {background-image: url(../../images/scribbles.png); background-position: right -200px;}
+#mainNav li:hover a {background-image: url(../../images/scribbles.png); background-position: left -200px;}
 
 
 #mainNav li:first-child { margin: 0; }
@@ -300,12 +300,12 @@ header .headerRight { float: right; }
 	Calendar
 **************************/
 
-#calendar { background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) no-repeat center -136px; padding: 35px 0 25px; position: relative; width: 100%; margin-bottom: -25px; float: left; height: 35px;}
+#calendar { background: url(../../images/sprites.png) no-repeat center -136px; padding: 35px 0 25px; position: relative; width: 100%; margin-bottom: -25px; float: left; height: 35px;}
 
 #calendar .container { clear: left; height: 35px; position: relative;}
 
 #calendar .leftButton,
-#calendar .rightButton {background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) -18px -608px no-repeat;	height: 33px; width: 35px; text-indent: -9999px; position: absolute; top: 0; left: 0; display: none;}
+#calendar .rightButton {background: url(../../images/sprites.png) -18px -608px no-repeat;	height: 33px; width: 35px; text-indent: -9999px; position: absolute; top: 0; left: 0; display: none;}
 
 #calendar .rightButton { background-position: -87px -608px; left: 915px;}
 
@@ -315,7 +315,7 @@ header .headerRight { float: right; }
 
 #calendar .window li {width: 32px; text-align: center; padding-bottom: 5px; text-transform: uppercase; font-family: Myriad Pro, Arial, helvetica, sans-serif; color: #10437C; float: left; position: relative;}
 
-#calendar .window li.month { background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) -3px -649px no-repeat; font-weight: bold; padding-bottom: 6px;}
+#calendar .window li.month { background: url(../../images/sprites.png) -3px -649px no-repeat; font-weight: bold; padding-bottom: 6px;}
 
 #calendar .window li.more {width: 110px;}
 #calendar .window li.more a {color: #00467C; font-weight: bold;}
@@ -328,12 +328,12 @@ header .headerRight { float: right; }
 
 #calendar .day { display: none; }
 
-#calendar .today { background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) -60px -658px no-repeat; }
+#calendar .today { background: url(../../images/sprites.png) -60px -658px no-repeat; }
 #calendar .today .day { display: block; font-weight: bold; color: #00467C; padding-top: 2px }
 #calendar .today .date { padding-top: 0; color: #00467c;}
 
 #calendar .events-preview {background: #b04e17; left: -124px; position: absolute; top:42px; z-index: 400; float: left; display: none;}
-#calendar .events-preview ul {background-image: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png); background-position: 130px -1590px; background-repeat: no-repeat; float: left; position: relative; top: 0; width: auto; padding-top: 12px; margin-top: -12px;}
+#calendar .events-preview ul {background-image: url(../../images/sprites.png); background-position: 130px -1590px; background-repeat: no-repeat; float: left; position: relative; top: 0; width: auto; padding-top: 12px; margin-top: -12px;}
 #calendar .events-preview li:first-child {border: none;}
 #calendar .events-preview li {color: #fff; padding: 10px 0; margin: 0 10px; text-align: left; text-transform: none; width: 260px; float: left; clear: left; background: #b04e17; font-size: 1.3em; border-top: solid 1px #fff;}
 #calendar .events-preview li a {color: #fff; text-decoration: none;}
@@ -361,7 +361,7 @@ header .headerRight { float: right; }
 #content.wide section#when h2.squiggle { background-position: left -500px; }
 
 .squiggleLink {
-	background: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png) no-repeat right -100px;
+	background: url(../../images/scribbles.png) no-repeat right -100px;
 	color: #FFFFFF;
 	margin-top: 0;
 	margin-bottom: 30px;
@@ -374,7 +374,7 @@ header .headerRight { float: right; }
 
 .squiggleLink a,
 .squiggleLink span {
-	background: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png) no-repeat left -100px;
+	background: url(../../images/scribbles.png) no-repeat left -100px;
 	line-height: 36px;
 	padding-left: 30px;
 	text-align: center;
@@ -396,7 +396,7 @@ header .headerRight { float: right; }
 	date filter
 **************************/
 
-#dateFilter { padding-bottom: 30px; margin-bottom: 20px; background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) no-repeat -67px -1253px; }
+#dateFilter { padding-bottom: 30px; margin-bottom: 20px; background: url(../../images/sprites.png) no-repeat -67px -1253px; }
 
 #dateFilter h2 { color: #B05116; margin: 10px 0; }
 
@@ -414,7 +414,7 @@ header .headerRight { float: right; }
 
 #listing { margin: 0; padding: 0; }
 
-#listing li { padding-top: 10px; list-style: none; clear: both; background: url(/sites/ahw/themes/ahw_bootstrap/images/list-bottom-border.png) no-repeat -383px bottom; float: left; padding-bottom: 10px; width: 608px; font-size: 1em; }
+#listing li { padding-top: 10px; list-style: none; clear: both; background: url(../../images/list-bottom-border.png) no-repeat -383px bottom; float: left; padding-bottom: 10px; width: 608px; font-size: 1em; }
 
 #listing li li { margin: 0; padding: 0; }
 
@@ -439,7 +439,7 @@ header .headerRight { float: right; }
 #listing .info .price .label { text-transform: uppercase; font-weight: bold; color: #B05116; float: left; margin-right: 5px; }
 #listing .info .price .cost { float: left; width: 325px; }
 
-#listing h3 { margin-top: 0; background-image: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png); background-repeat: no-repeat; background-position: 9999px 9999px; padding-left: 28px; font-size: 1.3em; margin-bottom: 5px; position: relative;}
+#listing h3 { margin-top: 0; background-image: url(../../images/sprites.png); background-repeat: no-repeat; background-position: 9999px 9999px; padding-left: 28px; font-size: 1.3em; margin-bottom: 5px; position: relative;}
 
 #listing h3 a { color: #001d34; }
 
@@ -482,7 +482,7 @@ header .headerRight { float: right; }
 
 #listing .key-popup li,
 #eventHeading .key-popup li {
-    background-image: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png");
+    background-image: url("../../images/sprites.png");
     font-size: 1.3em;
     padding: 3px 10px;
 	margin: 5px 0;
@@ -509,7 +509,7 @@ header .headerRight { float: right; }
 /**** Features ****/
 #listing .features { width: 50px; float: right; margin: 0; padding: 0; }
 
-#listing .features li { text-indent: -9999px; overflow: hidden; background-image: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png); background-repeat: no-repeat; background-position: 9999px 9999px; height: 45px; width: 50px; margin-bottom: 10px; }
+#listing .features li { text-indent: -9999px; overflow: hidden; background-image: url(../../images/sprites.png); background-repeat: no-repeat; background-position: 9999px 9999px; height: 45px; width: 50px; margin-bottom: 10px; }
 
 #listing .features .wheelchair { background-position: -1947px -1600px; }
 #listing .features .free { background-position: -1947px -1650px; }
@@ -533,7 +533,7 @@ header .headerRight { float: right; }
 
 .pagination li { float: left; color: #BC4327; display: block; padding: 5px 8px; }
 
-.pagination li.current { background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) no-repeat left -1611px; }
+.pagination li.current { background: url(../../images/sprites.png) no-repeat left -1611px; }
 
 .pagination li.current a { text-decoration: none; cursor: default; }
 
@@ -556,7 +556,7 @@ header .headerRight { float: right; }
 **************************/
 
 #getInvolved {
-    background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat scroll -360px -300px transparent;
+    background: url("../../images/sprites.png") no-repeat scroll -360px -300px transparent;
     clear: both;
     margin-top: 100px;
     padding: 15px 35px 70px;
@@ -577,9 +577,9 @@ header .headerRight { float: right; }
 	Side bar
 **************************/
 
-#sidebar { float: left; width: 300px; margin-left: 20px; background: url(/sites/ahw/themes/ahw_bootstrap/images/filter-sidebar.png) no-repeat left bottom; padding-bottom: 30px; }
+#sidebar { float: left; width: 300px; margin-left: 20px; background: url(../../images/filter-sidebar.png) no-repeat left bottom; padding-bottom: 30px; }
 
-#sidebar .innerFilter { background: url(/sites/ahw/themes/ahw_bootstrap/images/filter-sidebar-top.png) no-repeat left top; padding: 30px 30px 5px; }
+#sidebar .innerFilter { background: url(../../images/filter-sidebar-top.png) no-repeat left top; padding: 30px 30px 5px; }
 
 #sidebar fieldset {margin-top: 10px;}
 
@@ -601,7 +601,7 @@ header .headerRight { float: right; }
 
 #sidebar label { display: block; float: left; width: 200px; }
 
-#sidebar .keyword { background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat -20px -1025px; padding-bottom: 20px; }
+#sidebar .keyword { background: url("../../images/sprites.png") no-repeat -20px -1025px; padding-bottom: 20px; }
 
 #sidebar .keyword input[type=text] { height: 24px; margin-top: 4px; width: 130px; padding-left: 5px; border: solid 1px #c7d8e3; float: left;}
 
@@ -611,7 +611,7 @@ header .headerRight { float: right; }
 
 #sidebar .historical,
 #sidebar .natural,
-#sidebar .indigenous { padding-top: 3px; padding-bottom: 5px; padding-left: 10px; background-image: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png); background-repeat: no-repeat; background-position: -1993px -900px; width: 190px; }
+#sidebar .indigenous { padding-top: 3px; padding-bottom: 5px; padding-left: 10px; background-image: url(../../images/sprites.png); background-repeat: no-repeat; background-position: -1993px -900px; width: 190px; }
 
 #sidebar .historical { background-position: -1993px -900px; }
 #sidebar .natural { background-position: -1993px -1000px }
@@ -657,7 +657,7 @@ header .headerRight { float: right; }
     width: 168px;
 }
 
-#eventHeading h1 { background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) no-repeat -1993px -995px; margin: 0; font-size: 1.6em; padding-top: 3px; padding-left: 10px; width: 390px; position: relative; }
+#eventHeading h1 { background: url(../../images/sprites.png) no-repeat -1993px -995px; margin: 0; font-size: 1.6em; padding-top: 3px; padding-left: 10px; width: 390px; position: relative; }
 
 #eventHeading h1.indigenous { background-position: -1993px -1095px }
 #eventHeading h1.historical { background-position: -1993px -896px }
@@ -679,7 +679,7 @@ header .headerRight { float: right; }
 
 #eventHeading .label { color: #B05116; float: left; min-width: 65px; }
 
-#eventHeading li { font-weight: bold; text-transform: uppercase; width: 100px; padding: 7px 0 10px 50px; float: left; background: url(/sites/ahw/themes/ahw_bootstrap/images/sprites.png) no-repeat -1950px -1600px; line-height: 0.9em; }
+#eventHeading li { font-weight: bold; text-transform: uppercase; width: 100px; padding: 7px 0 10px 50px; float: left; background: url(../../images/sprites.png) no-repeat -1950px -1600px; line-height: 0.9em; }
 
 #eventHeading .booking { background-position: -1950px -1700px; }
 
@@ -746,15 +746,15 @@ input[type=radio] { width: auto; margin-right: 10px; float: left; margin-top: 5p
 
 .ie7 #content fieldset { margin: 0 130px 30px; }
 
-#content legend { background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: right -500px; padding: 0 25px 10px 0; float: left; }
+#content legend { background-image: url(../../images/scribbles.png); background-position: right -500px; padding: 0 25px 10px 0; float: left; }
 
-#content legend span { background-image: url(/sites/ahw/themes/ahw_bootstrap/images/scribbles.png); background-position: left -500px; padding-left: 20px; line-height: 36px; float: left;  color: #fff; font-size: 1.25em; font-weight: bold; text-transform: uppercase; }
+#content legend span { background-image: url(../../images/scribbles.png); background-position: left -500px; padding-left: 20px; line-height: 36px; float: left;  color: #fff; font-size: 1.25em; font-weight: bold; text-transform: uppercase; }
 
 div.row { clear: both; padding: 10px 0; }
 
 #content label { width: 200px; float: left; font-size: 1.2em; text-transform: uppercase; color: #B05116; font-weight: bold; text-align: right; margin-right: 30px; margin-top: 4px; padding-right: 10px; }
 
-#content label.required { background: url(/sites/ahw/themes/ahw_bootstrap/images/required-astrix.png) top right no-repeat; }
+#content label.required { background: url(../../images/required-astrix.png) top right no-repeat; }
 
 #content input[type=text], #content input[type=url], #content input[type=tel], #content input[type=email], #content textarea { width: 300px; padding: 3px 5px; }
 
@@ -788,7 +788,7 @@ a.addDate { display: none !important; }
 
 /*** submit buttons ***/
 input[type="submit"] {
-    background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat -20px -1152px;
+    background: url("../../images/sprites.png") no-repeat -20px -1152px;
     border: medium none;
     color: #F5E9D7;
     float: right;
@@ -802,7 +802,7 @@ input[type="submit"] {
 input[type="submit"]:hover { background-position: -147px -1152px }
 
 input[type="reset"] {
-    background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat 0px -1192px;
+    background: url("../../images/sprites.png") no-repeat 0px -1192px;
     border: medium none;
     color: #F5E9D7;
     float: right;
@@ -815,7 +815,7 @@ input[type="reset"] {
 input[type="reset"]:hover { background-position: -150px -1192px }
 
 a.clear {
-    background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat 0px -1192px;
+    background: url("../../images/sprites.png") no-repeat 0px -1192px;
     border: medium none;
     color: #F5E9D7;
     float: right;
@@ -863,9 +863,9 @@ a.clear:hover { background-position: -150px -1192px }
 #sidebarHome { float: left; width: 330px; margin-left: 30px; }
 
 
-.homeFilter {background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat scroll right -300px; font-size: 1.2em; padding: 35px; margin-bottom: 20px;}
+.homeFilter {background: url("../../images/sprites.png") no-repeat scroll right -300px; font-size: 1.2em; padding: 35px; margin-bottom: 20px;}
 
-.homeFilter h2 {color: #FAF3DF; padding-left: 60px; margin: 5px 0 10px 0; text-transform: uppercase; background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat left -298px;	min-height: 55px; font-size: 1.5em; width:70%;}
+.homeFilter h2 {color: #FAF3DF; padding-left: 60px; margin: 5px 0 10px 0; text-transform: uppercase; background: url("../../images/sprites.png") no-repeat left -298px;	min-height: 55px; font-size: 1.5em; width:70%;}
 //
 // .homeFilter fieldset { padding: 0 13px; width: 230px; background-color: #B04E17; }
 //
@@ -881,7 +881,7 @@ a.clear:hover { background-position: -150px -1192px }
 
 .homeFilter select { width: 230px; }
 //
-.homeFilter button[type=submit] {background: url("/sites/ahw/themes/ahw_bootstrap/images/sprites.png") no-repeat scroll left -800px transparent; border: medium none; font-size: 1.1em; font-weight: bold; padding: 9px 32px; text-transform: uppercase; float: right; margin: 20px 0 0 0; clear: both; color: #B05116;}
+.homeFilter button[type=submit] {background: url("../../images/sprites.png") no-repeat scroll left -800px transparent; border: medium none; font-size: 1.1em; font-weight: bold; padding: 9px 32px; text-transform: uppercase; float: right; margin: 20px 0 0 0; clear: both; color: #B05116;}
 
 .homeFilter button[type=submit]:hover { background-position: -135px -800px }
 
@@ -926,7 +926,7 @@ a.clear:hover { background-position: -150px -1192px }
 
 #whatsOn ul { margin: 0; padding: 0; clear: both; }
 
-#whatsOn li { list-style: none; background: url(/sites/ahw/themes/ahw_bootstrap/images/list-bottom-border.png) no-repeat left top; padding: 20px 20px 0; margin-bottom: 15px; }
+#whatsOn li { list-style: none; background: url(../../images/list-bottom-border.png) no-repeat left top; padding: 20px 20px 0; margin-bottom: 15px; }
 
 #whatsOn li:first-child { background: none; padding: 0 20px; }
 
@@ -960,10 +960,10 @@ a.clear:hover { background-position: -150px -1192px }
     padding-left: 30px;
     text-transform: uppercase;
     color: #fff;
-    background: url("/sites/ahw/themes/ahw_bootstrap/images/scribbles.png") left -500px no-repeat;
+    background: url("../../images/scribbles.png") left -500px no-repeat;
     span {
       display: inline-block;
-      background: url("/sites/ahw/themes/ahw_bootstrap/images/scribbles.png") right -500px no-repeat;
+      background: url("../../images/scribbles.png") right -500px no-repeat;
       padding: 5px 30px 5px 0;
       margin-right: -30px;
     }
@@ -980,7 +980,7 @@ a.clear:hover { background-position: -150px -1192px }
     }
   }
   .views-row {
-    background: url("/sites/ahw/themes/ahw_bootstrap/images/list-bottom-border.png") no-repeat left top;
+    background: url("../../images/list-bottom-border.png") no-repeat left top;
     padding: 20px 20px 0;
     margin-bottom: 15px;
     p {
@@ -1002,7 +1002,7 @@ a.clear:hover { background-position: -150px -1192px }
 
 footer { clear: both; position: relative; top: 12px; background: url(../images/site/footer-bg.png) repeat-x top #E6EFF0;}
 
-footer .nav {background: url("/sites/ahw/themes/ahw_bootstrap/images/footer.png") no-repeat center -80px; clear: both; padding-top: 95px; padding-bottom: 50px; margin: 0;}
+footer .nav {background: url("../../images/footer.png") no-repeat center -80px; clear: both; padding-top: 95px; padding-bottom: 50px; margin: 0;}
 
 footer ul {padding: 0; text-align: center; }
 
