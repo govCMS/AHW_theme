@@ -86,7 +86,7 @@
         </section>
 
         <section class="headerRight">
-          <a href="<?php print $front_page; ?>"><img src="/sites/ahw/themes/ahw_bootstrap/images/HeritageWeek.png" alt="Australian Heratige Week 2012" title="<?php print t('Home'); ?>"></a>
+          <a href="<?php print $front_page; ?>"><img src="/<?php print drupal_get_path('theme', 'ahw_bootstrap'); ?>/images/HeritageWeek.png" alt="Australian Heratige Week 2012" title="<?php print t('Home'); ?>"></a>
         </section>
 
 
