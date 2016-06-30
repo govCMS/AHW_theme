@@ -950,6 +950,8 @@ a.clear:hover { background-position: -150px -1192px }
 
 #whatsOn .viewMore a { background-position: left -500px; }
 
+
+// What's On front page section
 #block-views-ahw-home-page-events-block {
   h2 {
     display: inline-block;
@@ -995,12 +997,258 @@ a.clear:hover { background-position: -150px -1192px }
     }
   }
 }
+// What's on page
+.page-whats-on {
+  h1 {
+    margin-left: 360px;
+    font-size: 1.5em;
+  }
+  .sidebar {
+    margin-top: -70px;
+  }
+  .view-ahw-events-filter {
+    .views-row {
+      background: url("../../images/list-bottom-border.png") no-repeat -383px bottom;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+      min-height: 160px;
+      h3 {
+        margin-top: 0;
+        font-size: 1.3em;
+        margin-bottom: 5px;
+        position: relative;
+        a {
+          color: #001d34;
+        }
+      }
+      .views-field {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        .date {
+          font-size: 0.9em;
+          margin-bottom: 5px;
+        }
+      }
+      .views-field-field-ahw-event-image {
+        width: 150px;
+        float:left;
+        overflow: hidden;
+        margin-right: 10px;
+        display:table-cell;
+        vertical-align:middle;
+        text-align: center;
+        height: 150px;
+        border: solid 1px #f0f0f0;
+        .content {
+          position: relative;
+          width: 100%;
+          height: 150px;
+          .img-responsive {
+            position: absolute;
+            top: -9999px;
+            bottom: -9999px;
+            left: -9999px;
+            right: -9999px;
+            margin: auto;
+          }
+        }
+      }
+    }
+    .view-footer {
+      margin-top: 50px;
+      clear: both;
+      font-style: italic;
+      color: #707070;
+    }
+  }
+}
+
+// Register your event form
+
+.webform-client-form {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+  .panel-heading {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline-block;
+    min-height: 36px;
+    margin: 0 0 10px 0;
+    padding-left: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    background: url("../images/scribbles.png") left -500px no-repeat;
+    span {
+      display: inline-block;
+      background: url("../images/scribbles.png") right -500px no-repeat;
+      padding: 8px 30px 5px 0;
+      margin-right: -30px;
+      min-height: 36px;
+
+    }
+  }
+  .help-block {
+    margin-bottom: 10px;
+  }
+  //overrides for admin-selectable layouts
+  .webform-container-inline div, .webform-container-inline div.form-item {
+    display: inherit;
+  }
+
+  .webform-container-inline.webform-datepicker {
+    .form-type-select {
+      display: inline-block;
+    }
+  }
+
+  .webform-component--when-and-where--map,
+  .description {
+    padding-left: 250px;
+  }
+
+  .webform-component {
+    margin-bottom: 18px;
+    > label {
+      width: 210px;
+      float: left;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: #B05116;
+      font-weight: bold;
+      text-align: right;
+      margin-right: 30px;
+      margin-top: 4px;
+      padding-right: 10px;
+    }
+    .form-checkboxes,
+    .form-radios {
+      display: block;
+      .form-item {
+        display: block;
+        margin-bottom: 5px;
+        margin-left: 250px;
+        input[type=checkbox],
+        input[type=radio] {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+  .form-submit.webform-submit {
+      background: url("../images/sprites.png") no-repeat -20px -1152px;
+      border: medium none;
+      color: #F5E9D7;
+      float: right;
+      font-size: 1.4em;
+      font-weight: bold;
+      padding: 9px 0;
+      text-transform: uppercase;
+      width: 117px;
+  }
+}
+
+// Event form
+.node-type-ahw-event {
+  .page-header,
+  .tabs--primary.nav.nav-tabs,
+  .alert-block {
+    display: block;
+    width: 600px;
+    margin-left: 360px;
+  }
+  .page-header {
+    width: 440px;
+    margin-left: 520px;
+  }
+  .sidebar {
+    margin-top: -75px;
+  }
+  .node-ahw-event {
+    position: relative;
+    margin-top: -50px;
+    .submitted {
+      display: none;
+    }
+
+    .field-name-field-ahw-event-image {
+      width: 150px;
+      overflow: hidden;
+      margin-right: 10px;
+      vertical-align:middle;
+      text-align: center;
+      height: 150px;
+      border: solid 1px #f0f0f0;
+      margin-bottom: 20px;
+      .content {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        .img-responsive {
+          position: absolute;
+          top: -9999px;
+          bottom: -9999px;
+          left: -9999px;
+          right: -9999px;
+          margin: auto;
+        }
+      }
+
+    }
+    .clearfix:after, .clearfix:before {
+      display: none;
+    }
+
+    .field-label-inline {
+      display: block;
+      margin-bottom: 5px;
+      width: 49%;
+      float: left;
+      font-size: 1em;
+
+      .field-label {
+        width: 35%;
+        display: inline-block;
+        color: #b05116;
+      }
+      .field-items {
+        width: 60%;
+        display: inline-block;
+      }
+    }
+    .field-name-field-start-date,
+    .field-name-field-end-date {
+      width: 440px;
+      margin-left: 160px;
+      .field-label {
+        width: 20%;
+      }
+      .field-items {
+        width: 75%;
+      }
+    }
+    .field-name-field-start-date {
+      position: absolute;
+      top: 30px;
+    }
+    .field-name-field-end-date {
+      position: absolute;
+      top: 50px;
+    }
+    .field-type-text-with-summary {
+      clear: both;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  }
+}
 
 /****************************
 	Footer
 **************************/
 
-footer { clear: both; position: relative; top: 12px; background: url(../images/site/footer-bg.png) repeat-x top #E6EFF0;}
+footer { clear: both; position: relative; top: 12px; background: url(../../images/site/footer-bg.png) repeat-x top #E6EFF0;}
 
 footer .nav {background: url("../../images/footer.png") no-repeat center -80px; clear: both; padding-top: 95px; padding-bottom: 50px; margin: 0;}
 
